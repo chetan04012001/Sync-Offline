@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:connectivity/connectivity.dart';
 import 'dart:async';
 
-Future<void> handleSubmitLogic({
+Future<void> handleDataSync({
   required BuildContext context,
   required Map<String, TextEditingController> controllers,
   required SnackBar successSnackBar,

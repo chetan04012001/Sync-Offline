@@ -68,7 +68,7 @@ class _DetailsPageState extends State<DetailsPage> {
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
-                    handleSubmitLogic(
+                    handleDataSync(
                       context: context,
                       controllers: {
                         'name': _nameController,
